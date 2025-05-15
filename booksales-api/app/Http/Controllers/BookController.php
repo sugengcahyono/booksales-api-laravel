@@ -9,8 +9,9 @@ class BookController extends Controller
 {
     public function index() {
         // return view('books');
-        $data = new Book(); // membuat objek;
-        $books = $data->getBooks(); //mengakses method getBooks
+        // $data = new Book(); // membuat objek;
+        // $books = $data->getBooks(); //mengakses method getBooks
+        $books = Book::all();
 
         return view('books', ['books' => $books]); //mengirim data buku ke view
     }
