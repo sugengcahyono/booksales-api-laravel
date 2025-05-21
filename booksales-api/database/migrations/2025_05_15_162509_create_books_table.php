@@ -18,6 +18,8 @@ return new class extends Migration
             $table->float('price');
             $table->bigInteger('stock');
             $table->string('cover_photo');
+            $table->unsignedBigInteger('genre_id');
+            $table->unsignedBigInteger('author_id');
             $table->timestamps();
         });
     }

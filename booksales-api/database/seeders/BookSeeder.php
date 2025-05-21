@@ -19,6 +19,8 @@ class BookSeeder extends Seeder
             'price' => 40000,
             'stock' => 15,
             'cover_photo' => 'pulang.jpg',
+            'genre_id' => 1,
+            'author_id' => 1,
         ]);
 
         Book::create([
@@ -27,6 +29,8 @@ class BookSeeder extends Seeder
             'price' => 42000,
             'stock' => 12,
             'cover_photo' => 'pergi.jpg',
+            'genre_id' => 1,
+            'author_id' => 1,
         ]);
 
         Book::create([
@@ -35,6 +39,8 @@ class BookSeeder extends Seeder
             'price' => 45000,
             'stock' => 10,
             'cover_photo' => 'laut_bercerita.jpg',
+            'genre_id' => 2,
+            'author_id' => 2,
         ]);
 
         Book::create([
@@ -43,6 +49,8 @@ class BookSeeder extends Seeder
             'price' => 38000,
             'stock' => 20,
             'cover_photo' => 'bumi.jpg',
+            'genre_id' => 3,
+            'author_id' => 3,
         ]);
 
         Book::create([
@@ -51,6 +59,8 @@ class BookSeeder extends Seeder
             'price' => 47000,
             'stock' => 18,
             'cover_photo' => 'langit_merah.jpg',
+            'genre_id' => 4,
+            'author_id' => 4,
         ]);
 
         Book::create([
@@ -59,6 +69,8 @@ class BookSeeder extends Seeder
             'price' => 39000,
             'stock' => 25,
             'cover_photo' => 'hujan.jpg',
+            'genre_id' => 3,
+            'author_id' => 3,
         ]);
 
         Book::create([
@@ -67,6 +79,9 @@ class BookSeeder extends Seeder
             'price' => 46000,
             'stock' => 14,
             'cover_photo' => 'negeri_bedebah.jpg',
+            'genre_id' => 5,
+            'author_id' => 5,
         ]);
     }
+
 }
